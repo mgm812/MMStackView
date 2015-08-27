@@ -154,13 +154,25 @@
         NSInteger stackRevealHeight = floor(kBottomRevealHeight / ([cells count] - 1));
         for (MMStackCell * cell in cells) {
             if (cell.tag == index) {
-                cell.transform      = CGAffineTransformMakeTranslation(0, - kRevealHeight * currentPageIndex);
+                CGAffineTransform   translate;
+                translate           = CGAffineTransformMakeTranslation(0, - kRevealHeight * currentPageIndex);
+                CGAffineTransform   scale;
+                scale               = CGAffineTransformMakeScale(1, 1);
+                CGAffineTransform   transform;
+                transform           = CGAffineTransformConcat(translate, scale);
+                cell.transform      = transform;
             }
             else {
                 NSInteger startY    = (self.bounds.size.height
                                        - (cell.frame.origin.y - (page - 1) * self.bounds.size.height)
                                        - 50);
-                cell.transform      = CGAffineTransformMakeTranslation(0, startY + stackRevealHeight * stackPageIndex);
+                CGAffineTransform   translate;
+                translate           = CGAffineTransformMakeTranslation(0, startY + stackRevealHeight * stackPageIndex);
+                CGAffineTransform   scale;
+                scale               = CGAffineTransformMakeScale(1 - (0.1 - 0.01 * stackPageIndex), 1);
+                CGAffineTransform   transform;
+                transform           = CGAffineTransformConcat(translate, scale);
+                cell.transform      = transform;
                 stackPageIndex++;
             }
             currentPageIndex++;
@@ -189,7 +201,7 @@
     NSArray * cells = [self cellsOfCurrentPageWithTotalIndex:index];
     [UIView animateWithDuration:0.3 animations:^{
         for (MMStackCell * cell in cells) {
-            cell.transform  = CGAffineTransformMakeTranslation(0, 0);
+            cell.transform  = CGAffineTransformIdentity;
         }
     } completion:^(BOOL finished) {
         [self.bottomStack removeFromSuperview];
