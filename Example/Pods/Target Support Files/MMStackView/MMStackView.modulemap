@@ -1,0 +1,6 @@
+framework module MMStackView {
+  umbrella header "MMStackView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+PODS:
+  - MMStackView (0.1.0)
+
+DEPENDENCIES:
+  - MMStackView (from `../`)
+
+EXTERNAL SOURCES:
+  MMStackView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MMStackView: 6ff3fd436394dad4275855e33f481d7aa6287019
+
+COCOAPODS: 0.38.2

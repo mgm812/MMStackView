@@ -23,6 +23,7 @@
 		64F173C91F6F4B43250460D0 /* Pods_MMStackView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A00A6C5244CB184372E7D4 /* Pods_MMStackView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9550BFDC1AEC8AF1CA8E7082 /* Pods_MMStackView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EA3FCFBEE4DFB00C242E06 /* Pods_MMStackView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ED49D7A01B8EE5B4007D9D6E /* UIColor+CatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = ED49D79F1B8EE5B4007D9D6E /* UIColor+CatColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		06730F87AD25B786465116DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		536337C1B0CCB6D4C18DECB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		59A00A6C5244CB184372E7D4 /* Pods_MMStackView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMStackView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58A195388D20070C39A /* MMStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MMStackView.app; path = MMStackView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* MMStackView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMStackView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -52,7 +53,7 @@
 		6003F5A5195388D20070C39A /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = MMStackView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* MMStackView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMStackView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -63,6 +64,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		90768E259488C7518F83E011 /* Pods-MMStackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMStackView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMStackView_Tests/Pods-MMStackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7EA3FCFBEE4DFB00C242E06 /* Pods_MMStackView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMStackView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49D79E1B8EE5B4007D9D6E /* UIColor+CatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CatColors.h"; sourceTree = "<group>"; };
+		ED49D79F1B8EE5B4007D9D6E /* UIColor+CatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CatColors.m"; sourceTree = "<group>"; };
 		F6BD6787D66F180B4631F527 /* Pods-MMStackView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMStackView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMStackView_Example/Pods-MMStackView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FC46875E087D6B584FAC5C6C /* Pods-MMStackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMStackView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMStackView_Example/Pods-MMStackView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,8 +122,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* MMStackView.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* MMStackView_Example.app */,
+				6003F5AE195388D20070C39A /* MMStackView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +149,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MMViewController.h */,
 				6003F5A6195388D20070C39A /* MMViewController.m */,
+				ED49D79E1B8EE5B4007D9D6E /* UIColor+CatColors.h */,
+				ED49D79F1B8EE5B4007D9D6E /* UIColor+CatColors.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -213,7 +218,7 @@
 			);
 			name = MMStackView_Example;
 			productName = MMStackView;
-			productReference = 6003F58A195388D20070C39A /* MMStackView.app */;
+			productReference = 6003F58A195388D20070C39A /* MMStackView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* MMStackView_Tests */ = {
@@ -234,7 +239,7 @@
 			);
 			name = MMStackView_Tests;
 			productName = MMStackViewTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* MMStackView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -390,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED49D7A01B8EE5B4007D9D6E /* UIColor+CatColors.m in Sources */,
 				6003F59E195388D20070C39A /* MMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -466,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
