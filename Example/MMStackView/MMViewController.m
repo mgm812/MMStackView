@@ -29,8 +29,6 @@
     stackView.backgroundColor   = [UIColor clearColor];
     stackView.dataSource        = self;
     stackView.delegate          = self;
-    stackView.layer.borderWidth = 1;
-    stackView.layer.borderColor = [UIColor redColor].CGColor;
     [self.view addSubview:stackView];
 }
 
