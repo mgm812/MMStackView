@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-MMStackView 实现了ApplePay中卡片展示的效果，而且还支持自动分页，每页的卡片数量根据View的高度自动计算。使用MMStackView跟使用UITableView一样简单，MMStackView提供了MMStackCell，可以继承MMStackCell来自定义。
+MMStackView implements ApplePay card display effect, but also support the automatic paging, each page of the card number according to the height of the View of the automatic calculation. Is also easy to use, just like UITableView, enjoy it.
                        DESC
 
   s.homepage         = "https://github.com/mmy812/MMStackView"
