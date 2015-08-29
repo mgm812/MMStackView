@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod "MMStackView"
 ```
 
+## Example
+
+MMStackView display like this:
+![exampleImg01](https://raw.githubusercontent.com/mmy812/MMStackView/95b1c1afb48bc297ad31f7277c000ae49f72739f/Pod/Assets/MMStackViewScreenShot01.png)
+
 ## Author
 
 mmy, ymm.812@gmail.com

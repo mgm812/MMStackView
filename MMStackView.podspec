@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MMStackView"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "MMStackView like cards list view in wallet app."
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ MMStackView implements ApplePay card display effect, but also support the automa
   s.source           = { :git => "https://github.com/mmy812/MMStackView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/mmy812'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
